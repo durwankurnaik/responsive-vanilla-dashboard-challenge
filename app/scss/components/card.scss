@@ -15,8 +15,8 @@
 }
 
 .card {
-  background: var(--dark-card);
-  color: var(--dark-text1);
+  background: var(--card-bg);
+  color: var(--text-color2);
   text-align: center;
   padding: rem(25);
   border-radius: rem(5);
@@ -27,7 +27,7 @@
   transition: background 150ms ease-in-out;
 
   &:hover {
-    background: var(--dark-card-hover);
+    background: var(--card-hover);
   }
 
   &__platform {
@@ -76,15 +76,6 @@
 
   &__icon {
     margin-right: rem(8);
-
-    &--facebook {
-    }
-    &--twitter {
-    }
-    &--instagram {
-    }
-    &--youtube {
-    }
   }
 
   &__username {
@@ -93,7 +84,7 @@
   }
 
   &__count {
-    color: var(--light-bg);
+    color: var(--text-color);
     font-weight: 700;
     letter-spacing: rem(-2);
     line-height: 1;
@@ -116,7 +107,7 @@
     font-size: rem(12);
     letter-spacing: rem(5);
     font-weight: 400;
-    color: var(--dark-text1);
+    color: var(--text-color2);
     text-transform: uppercase;
   }
 
